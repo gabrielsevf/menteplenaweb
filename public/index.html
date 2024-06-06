@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+    <!-- Metadados essenciais para a página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MentePlena - Apoio e educação sobre o Autismo | MentePlena</title>
 
-    <!-- Links para os arquivos de estilo -->
+    <!-- Links para arquivos de estilo -->
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
+    <!-- Link para biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <!-- Cabeçalho -->
+    <!-- Cabeçalho do site -->
     <header id="Cabecalho">
         <div class="navbar">
             <!-- Logotipo -->
             <div class="logo">
                 <a href="./index.html">
-                    <img src="./img/menteplena_logo.png">
+                    <img src="./img/menteplena_logo.png" alt="Logotipo MentePlena">
                 </a>
             </div>
 
@@ -29,7 +33,7 @@
                 <a href="./html/relatos.html">Relatos</a>
                 <a href="./html/recursos.html">Recursos</a>
                 <a href="./html/contato.html">Contato</a>
-                <a href="./html/ia.html"></a>
+                <a href="./html/ia.html"></a> <!-- Link vazio -->
             </div>
 
             <!-- Ícone de menu e conteúdo do dropdown -->
@@ -47,8 +51,86 @@
         </div>
     </header>
 
+    <!-- Primeira seção principal -->
+    <section id="Home_1">
+        <div class="home_cont_1">
+            <div class="info_text_1">
+                <span class="titulo_1">
+                    <h1>Tecnologia na inclusão: Autismo</h1>
+                </span>
+                <span class="texto_1">
+                    <p>
+                        Seja bem-vindo(a) ao nosso website dedicado ao auxílio no autismo e à promoção de uma educação
+                        de qualidade para indivíduos dentro do espectro autista. Neste espaço, reunimos recursos,
+                        informações e apoio para pais, cuidadores, educadores e profissionais da área, visando oferecer
+                        suporte e orientação para uma jornada mais inclusiva e bem-sucedida.
+                    </p>
+                </span>
+            </div>
+            <div class="info_img_1">
+                <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=538,h=527,fit=crop/A0xr016aR9TWNKL8/crianca-brincando-com-cubos-YD0vxe4yjkiWKXRG.jpg" alt="Criança brincando com cubos">
+            </div>
+        </div>
+    </section>
+
+    <!-- Segunda seção principal -->
+    <section id="Home_2">
+        <div class="home_cont_2">
+            <div class="info_text_2">
+                <span class="titulo_2">
+                    <h1>Missão:</h1>
+                </span>
+                <span class="texto_2">
+                    <p>
+                        Nosso objetivo é fornecer um ambiente online acolhedor e informativo, que promova a compreensão
+                        do autismo, ofereça estratégias práticas para lidar com os desafios cotidianos e defenda uma
+                        educação de qualidade que atenda às necessidades específicas de cada indivíduo autista.
+                    </p>
+                </span>
+            </div>
+            <div class="info_img_2">
+                <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=594,fit=crop/A0xr016aR9TWNKL8/autismo-1-1-1024x683-A3Qrg3GpRBIZyl6L.jpg" alt="Imagem ilustrativa sobre autismo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="Contato">
+        <div class="contato_1">
+            <span class="titulo">
+                <h1>Entre em contato</h1>
+            </span>
+            <span class="contato_btn">
+                <a href="./html/contato.html">
+                    <button>Contato</button>
+                </a>
+            </span>
+        </div>
+        <div class="contato_2">
+            <span class="email">
+                <p>menteplenaprojeto@gmail.com</p>
+            </span>
+            <div class="rede_social">
+                <span class="icons">
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </span>
+                <span class="icons">
+                    <a href="https://www.instagram.com/menteplena.tcc">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </span>
+                <span class="icons">
+                    <a href="https://api.whatsapp.com/send/?phone=14998148744&text&type=phone_number&app_absent=0">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
     <!-- Inclusão do arquivo JavaScript -->
     <script src="./js/menu.js"></script>
 </body>
-
 </html>

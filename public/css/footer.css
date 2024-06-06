@@ -1,0 +1,72 @@
+/* Estilo para a seção de contato */
+#Contato {
+    position: relative;
+    display: grid; /* Usando Grid Layout */
+    justify-content: space-around; /* Espaça os itens uniformemente */
+    background-color: #083d77; /* Cor de fundo azul escuro */
+    padding: 3rem; /* Espaçamento interno */
+    margin-top: 1rem; /* Margem superior */
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto)); /* Colunas responsivas */
+}
+
+/* Estilo para o título dentro de .titulo */
+.titulo h1 {
+    color: #fff; /* Cor do texto branca */
+    width: 300px; /* Largura do título */
+    text-align: left; /* Alinhamento à esquerda */
+    padding-bottom: 1rem; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para o botão de contato dentro de .contato_btn */
+.contato_btn button {
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    text-align: center; /* Centraliza o texto */
+    border: none; /* Remove borda */
+    background: none; /* Remove fundo padrão */
+    width: 120px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    border-radius: 40px; /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 700; /* Peso da fonte */
+    transition: all .5s ease; /* Transição suave */
+}
+
+/* Efeito hover para o botão de contato */
+.contato_btn button:hover {
+    background-color: #c9c9c9; /* Cor de fundo ao passar o mouse */
+    transition: all .5s ease; /* Transição suave */
+}
+
+/* Estilo para o parágrafo de email dentro de .email */
+.email p {
+    color: #fff; /* Cor do texto branca */
+    width: 300px; /* Largura do parágrafo */
+    font-size: 24px; /* Tamanho da fonte */
+    padding-bottom: 1rem; /* Espaçamento abaixo do parágrafo */
+    text-align: center; /* Alinhamento central */
+}
+
+/* Estilo para a seção de redes sociais */
+.rede_social {
+    display: flex; /* Usando Flexbox */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+/* Estilo para os ícones de redes sociais */
+.icons {
+    margin: 0 15px; /* Margens laterais */
+}
+
+/* Estilo para os links dos ícones */
+.icons a {
+    color: #fff; /* Cor dos ícones branca */
+    font-size: 36px; /* Tamanho dos ícones */
+    transition: all .5s ease; /* Transição suave */
+}
+
+/* Efeito hover para os links dos ícones */
+.icons a:hover {
+    color: #000; /* Cor dos ícones ao passar o mouse */
+    transition: all .5s ease; /* Transição suave */
+}

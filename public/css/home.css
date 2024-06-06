@@ -1,0 +1,81 @@
+/* Estilo para a seção #Home_1 */
+#Home_1 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* A seção ocupará 100% da altura da viewport */
+    display: flex; /* Flexbox para alinhas os elementos dentro da seção */
+}
+
+/* Estilo para o contêiner .home_cont_1 */
+.home_cont_1 {
+    display: grid; /* Usando Grid Layout */
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de tamanhos iguais */
+    align-items: center; /* Centraliza verticalmente os itens dentro das células do grid */
+    text-align: center; /* Centraliza o texto */
+    background-color: #fff; /* Fundo branco */
+    padding: 2rem; /* Espaçamento interno */
+}
+
+/* Estilo para o título dentro de .info_text_1 */
+.info_text_1 .titulo_1 h1 {
+    font-size: 48px; /* Tamanho da fonte */
+    margin: 0 15% 0 15%; /* Margens laterais */
+    text-align: left; /* Alinhamento à esquerda */
+    padding-bottom: 1rem; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para o parágrafo dentro de .info_text_1 */
+.info_text_1 .texto_1 p {
+    text-align: left; /* Alinhamento à esquerda */
+    margin: 0 15% 0 15%; /* Margens laterais */
+    padding-right: 2rem; /* Espaçamento à direita */
+    font-size: 26px; /* Tamanho da fonte */
+}
+
+/* Estilo para a imagem dentro de .info_img_1 */
+.info_img_1 img {
+    max-width: 600px; /* Largura máxima da imagem */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+/* Estilo para a seção #Home_2 */
+#Home_2 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* A seção ocupará 100% da altura da viewport */
+    display: flex; /* Flexbox para alinhas os elementos dentro da seção */
+}
+
+/* Estilo para o contêiner .home_cont_2 */
+.home_cont_2 {
+    display: grid; /* Usando Grid Layout */
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de tamanhos iguais */
+    align-items: center; /* Centraliza verticalmente os itens dentro das células do grid */
+    text-align: center; /* Centraliza o texto */
+    background-color: #306998; /* Fundo azul */
+    padding: 2rem; /* Espaçamento interno */
+}
+
+/* Estilo para o título dentro de .info_text_2 */
+.info_text_2 .titulo_2 h1 {
+    color: #fff; /* Cor do texto branca */
+    font-size: 48px; /* Tamanho da fonte */
+    margin: 0 15% 0 15%; /* Margens laterais */
+    text-align: left; /* Alinhamento à esquerda */
+    padding-bottom: 1rem; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para o parágrafo dentro de .info_text_2 */
+.info_text_2 .texto_2 p {
+    color: #fff; /* Cor do texto branca */
+    text-align: left; /* Alinhamento à esquerda */
+    margin: 0 15% 0 15%; /* Margens laterais */
+    padding-right: 2rem; /* Espaçamento à direita */
+    font-size: 26px; /* Tamanho da fonte */
+}
+
+/* Estilo para a imagem dentro de .info_img_2 */
+.info_img_2 img {
+    max-width: 600px; /* Largura máxima da imagem */
+    border-radius: 20px; /* Bordas arredondadas */
+}
