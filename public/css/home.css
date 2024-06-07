@@ -2,80 +2,267 @@
 #Home_1 {
     position: relative;
     width: 100%;
-    height: 100vh; /* A seção ocupará 100% da altura da viewport */
-    display: flex; /* Flexbox para alinhas os elementos dentro da seção */
+    height: 100vh;
+    /* A seção ocupará 100% da altura da viewport */
+    display: flex;
+    /* Flexbox para alinhas os elementos dentro da seção */
 }
 
 /* Estilo para o contêiner .home_cont_1 */
 .home_cont_1 {
-    display: grid; /* Usando Grid Layout */
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas de tamanhos iguais */
-    align-items: center; /* Centraliza verticalmente os itens dentro das células do grid */
-    text-align: center; /* Centraliza o texto */
-    background-color: #fff; /* Fundo branco */
-    padding: 2rem; /* Espaçamento interno */
+    display: grid;
+    /* Usando Grid Layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Duas colunas de tamanhos iguais */
+    align-items: center;
+    /* Centraliza verticalmente os itens dentro das células do grid */
+    text-align: center;
+    /* Centraliza o texto */
+    background-color: #fff;
+    /* Fundo branco */
+    padding: 2rem;
+    /* Espaçamento interno */
 }
 
 /* Estilo para o título dentro de .info_text_1 */
 .info_text_1 .titulo_1 h1 {
-    font-size: 48px; /* Tamanho da fonte */
-    margin: 0 15% 0 15%; /* Margens laterais */
-    text-align: left; /* Alinhamento à esquerda */
-    padding-bottom: 1rem; /* Espaçamento abaixo do título */
+    font-size: 48px;
+    /* Tamanho da fonte */
+    margin: 0 15% 0 15%;
+    /* Margens laterais */
+    text-align: left;
+    /* Alinhamento à esquerda */
+    padding-bottom: 1rem;
+    /* Espaçamento abaixo do título */
 }
 
 /* Estilo para o parágrafo dentro de .info_text_1 */
 .info_text_1 .texto_1 p {
-    text-align: left; /* Alinhamento à esquerda */
-    margin: 0 15% 0 15%; /* Margens laterais */
-    padding-right: 2rem; /* Espaçamento à direita */
-    font-size: 26px; /* Tamanho da fonte */
+    text-align: left;
+    /* Alinhamento à esquerda */
+    margin: 0 15% 0 15%;
+    /* Margens laterais */
+    padding-right: 2rem;
+    /* Espaçamento à direita */
+    font-size: 26px;
+    /* Tamanho da fonte */
 }
 
 /* Estilo para a imagem dentro de .info_img_1 */
 .info_img_1 img {
-    max-width: 600px; /* Largura máxima da imagem */
-    border-radius: 20px; /* Bordas arredondadas */
+    max-width: 600px;
+    /* Largura máxima da imagem */
+    border-radius: 20px;
+    /* Bordas arredondadas */
 }
 
 /* Estilo para a seção #Home_2 */
 #Home_2 {
     position: relative;
     width: 100%;
-    height: 100vh; /* A seção ocupará 100% da altura da viewport */
-    display: flex; /* Flexbox para alinhas os elementos dentro da seção */
+    height: 100vh;
+    /* A seção ocupará 100% da altura da viewport */
+    display: flex;
+    /* Flexbox para alinhas os elementos dentro da seção */
 }
 
 /* Estilo para o contêiner .home_cont_2 */
 .home_cont_2 {
-    display: grid; /* Usando Grid Layout */
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas de tamanhos iguais */
-    align-items: center; /* Centraliza verticalmente os itens dentro das células do grid */
-    text-align: center; /* Centraliza o texto */
-    background-color: #306998; /* Fundo azul */
-    padding: 2rem; /* Espaçamento interno */
+    display: grid;
+    /* Usando Grid Layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Duas colunas de tamanhos iguais */
+    align-items: center;
+    /* Centraliza verticalmente os itens dentro das células do grid */
+    text-align: center;
+    /* Centraliza o texto */
+    background-color: #306998;
+    /* Fundo azul */
+    padding: 2rem;
+    /* Espaçamento interno */
 }
 
 /* Estilo para o título dentro de .info_text_2 */
 .info_text_2 .titulo_2 h1 {
-    color: #fff; /* Cor do texto branca */
-    font-size: 48px; /* Tamanho da fonte */
-    margin: 0 15% 0 15%; /* Margens laterais */
-    text-align: left; /* Alinhamento à esquerda */
-    padding-bottom: 1rem; /* Espaçamento abaixo do título */
+    color: #fff;
+    /* Cor do texto branca */
+    font-size: 48px;
+    /* Tamanho da fonte */
+    margin: 0 15% 0 15%;
+    /* Margens laterais */
+    text-align: left;
+    /* Alinhamento à esquerda */
+    padding-bottom: 1rem;
+    /* Espaçamento abaixo do título */
 }
 
 /* Estilo para o parágrafo dentro de .info_text_2 */
 .info_text_2 .texto_2 p {
-    color: #fff; /* Cor do texto branca */
-    text-align: left; /* Alinhamento à esquerda */
-    margin: 0 15% 0 15%; /* Margens laterais */
-    padding-right: 2rem; /* Espaçamento à direita */
-    font-size: 26px; /* Tamanho da fonte */
+    color: #fff;
+    /* Cor do texto branca */
+    text-align: left;
+    /* Alinhamento à esquerda */
+    margin: 0 15% 0 15%;
+    /* Margens laterais */
+    padding-right: 2rem;
+    /* Espaçamento à direita */
+    font-size: 26px;
+    /* Tamanho da fonte */
 }
 
 /* Estilo para a imagem dentro de .info_img_2 */
 .info_img_2 img {
-    max-width: 600px; /* Largura máxima da imagem */
-    border-radius: 20px; /* Bordas arredondadas */
+    max-width: 600px;
+    /* Largura máxima da imagem */
+    border-radius: 20px;
+    /* Bordas arredondadas */
+}
+
+/* Estiliza a seção com id 'Home_3' */
+#Home_3 {
+    position: relative; /* Define a posição relativa para futuros posicionamentos */
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    width: 100%; /* Define a largura total da seção */
+    height: 60vh; /* Define a altura da seção como 60% da altura da visualização */
+    background-color: #fafafa; /* Define a cor de fundo da seção */
+}
+
+/* Estiliza o container com classe 'home_cont_3' */
+.home_cont_3 {
+    display: grid; /* Usa o grid layout para alinhar itens filhos */
+    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanhos iguais */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    text-align: center; /* Alinha o texto no centro horizontalmente */
+}
+
+/* Estiliza o título dentro da classe 'info_text_3' */
+.info_text_3 .titulo_3 h1 {
+    color: #000; /* Define a cor do texto como preto */
+    font-size: 48px; /* Define o tamanho da fonte */
+    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding-bottom: 1rem; /* Adiciona um espaçamento na parte inferior */
+}
+
+/* Estiliza o parágrafo dentro da classe 'info_text_3' */
+.info_text_3 .texto_3 p {
+    color: #000; /* Define a cor do texto como preto */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
+    padding-right: 2rem; /* Adiciona um preenchimento à direita */
+    font-size: 22px; /* Define o tamanho da fonte */
+}
+
+/* Estiliza a imagem dentro da classe 'info_img_3' */
+.info_img_3 img {
+    max-width: 600px; /* Define a largura máxima da imagem */
+    border-radius: 50px; /* Define os cantos arredondados da imagem */
+}
+
+/* Estiliza a seção com id 'Home_4' */
+#Home_4 {
+    position: relative; /* Define a posição relativa para futuros posicionamentos */
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    width: 100%; /* Define a largura total da seção */
+    height: 60vh; /* Define a altura da seção como 60% da altura da visualização */
+    background-color: #fafafa; /* Define a cor de fundo da seção */
+}
+
+/* Estiliza o container com classe 'home_cont_4' */
+.home_cont_4 {
+    display: grid; /* Usa o grid layout para alinhar itens filhos */
+    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanhos iguais */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    text-align: center; /* Alinha o texto no centro horizontalmente */
+}
+
+/* Estiliza o título dentro da classe 'info_text_4' */
+.info_text_4 .titulo_4 h1 {
+    color: #000; /* Define a cor do texto como preto */
+    font-size: 48px; /* Define o tamanho da fonte */
+    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding-bottom: 1rem; /* Adiciona um espaçamento na parte inferior */
+}
+
+/* Estiliza o parágrafo dentro da classe 'info_text_4' */
+.info_text_4 .texto_4 p {
+    color: #000; /* Define a cor do texto como preto */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
+    padding-right: 2rem; /* Adiciona um preenchimento à direita */
+    font-size: 22px; /* Define o tamanho da fonte */
+}
+
+/* Estiliza a imagem dentro da classe 'info_img_4' */
+.info_img_4 img {
+    max-width: 600px; /* Define a largura máxima da imagem */
+    border-radius: 180px; /* Define os cantos arredondados da imagem */
+}
+
+/* Estiliza a seção com id 'Home_5' */
+#Home_5 {
+    position: relative; /* Define a posição relativa para futuros posicionamentos */
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    width: 100%; /* Define a largura total da seção */
+    height: 60vh; /* Define a altura da seção como 60% da altura da visualização */
+    background-color: #fafafa; /* Define a cor de fundo da seção */
+}
+
+/* Estiliza o container com classe 'home_cont_5' */
+.home_cont_5 {
+    display: grid; /* Usa o grid layout para alinhar itens filhos */
+    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanhos iguais */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    text-align: center; /* Alinha o texto no centro horizontalmente */
+}
+
+/* Estiliza o título dentro da classe 'info_text_5' */
+.info_text_5 .titulo_5 h1 {
+    color: #000; /* Define a cor do texto como preto */
+    font-size: 48px; /* Define o tamanho da fonte */
+    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding-bottom: 1rem; /* Adiciona um espaçamento na parte inferior */
+}
+
+/* Estiliza o parágrafo dentro da classe 'info_text_5' */
+.info_text_5 .texto_5 p {
+    color: #000; /* Define a cor do texto como preto */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
+    padding-right: 2rem; /* Adiciona um preenchimento à direita */
+    font-size: 22px; /* Define o tamanho da fonte */
+}
+
+/* Estiliza a imagem dentro da classe 'info_img_5' */
+.info_img_5 img {
+    max-width: 600px; /* Define a largura máxima da imagem */
+    border-radius: 180px; /* Define os cantos arredondados da imagem */
+}
+
+/* Estiliza a seção com id 'Home_6' */
+#Home_6 {
+    position: relative; /* Define a posição relativa para futuros posicionamentos */
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    width: 100%; /* Define a largura total da seção */
+    height: 30vh; /* Define a altura da seção como 30% da altura da visualização */
+    background-color: #fafafa; /* Define a cor de fundo da seção */
+}
+
+/* Estiliza o container com classe 'home_cont_6' */
+.home_cont_6 {
+    width: 100%; /* Define a largura total do container */
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+}
+
+/* Estiliza a classe 'info_text_6' */
+.info_text_6 {
+    margin: auto; /* Centraliza o conteúdo dentro do container */
+}
+
+/* Estiliza o título dentro da classe 'titulo_6' */
+.titulo_6 {
+    color: #000; /* Define a cor do texto como preto */
+    font-size: 32px; /* Define o tamanho da fonte */
 }
