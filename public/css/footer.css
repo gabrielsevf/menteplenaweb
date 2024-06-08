@@ -58,6 +58,10 @@
     margin: 0 15px; /* Margens laterais */
 }
 
+.icons i{
+    position: relative;
+}
+
 /* Estilo para os links dos ícones */
 .icons a {
     color: #fff; /* Cor dos ícones branca */

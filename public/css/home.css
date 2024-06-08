@@ -266,3 +266,87 @@
     color: #000; /* Define a cor do texto como preto */
     font-size: 32px; /* Define o tamanho da fonte */
 }
+
+/* Estiliza a seção com id 'Home_7' */
+#Home_7 {
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens quebrem em várias linhas, se necessário */
+    margin-top: 100px; /* Adiciona uma margem superior de 100 pixels */
+}
+
+/* Estiliza o container dos cartões com classe 'card' */
+.card {
+    width: 500px; /* Define a largura dos cartões */
+    height: auto; /* A altura será ajustada automaticamente conforme o conteúdo */
+    background-color: #F0F0F0; /* Define a cor de fundo dos cartões */
+    border-radius: 8px; /* Adiciona cantos arredondados com um raio de 8 pixels */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do cartão */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao redor dos cartões */
+    margin: 20px; /* Adiciona uma margem ao redor de cada cartão */
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    flex-direction: column; /* Organiza o conteúdo dos cartões em uma coluna */
+    position: relative; /* Define a posição relativa para permitir o uso de posicionamento absoluto nos elementos filhos */
+}
+
+/* Estiliza o container da imagem dentro do cartão com classe 'card_img' */
+.card_img {
+    position: relative; /* Define a posição relativa para a imagem do cartão */
+}
+
+/* Estiliza a imagem dentro da classe 'card_img' */
+.card_img img {
+    width: 100%; /* Define a largura da imagem para ocupar 100% do contêiner */
+    height: 300px; /* Define a altura da imagem */
+    object-fit: cover; /* Faz com que a imagem cubra completamente o contêiner, cortando se necessário */
+}
+
+/* Estiliza o container de texto dentro do cartão com classe 'card_texto' */
+.card_texto {
+    padding: 16px; /* Adiciona um padding de 16 pixels ao redor do texto */
+    flex: 1; /* Permite que a seção de texto ocupe o espaço restante no cartão */
+    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    flex-direction: column; /* Organiza o conteúdo do texto em uma coluna */
+    justify-content: flex-start; /* Alinha o conteúdo do texto ao início do contêiner */
+}
+
+/* Estiliza o título dentro da classe 'card_texto' */
+.card_texto h3 {
+    font-size: 28px; /* Define o tamanho da fonte para 28 pixels */
+    margin-bottom: 8px; /* Adiciona uma margem inferior de 8 pixels */
+}
+
+/* Estiliza os parágrafos dentro da classe 'card_texto' */
+.card_texto p {
+    color: #777777; /* Define a cor do texto como um cinza */
+    font-size: 15px; /* Define o tamanho da fonte para 15 pixels */
+    line-height: 1.3; /* Define a altura da linha para 1.3 vezes o tamanho da fonte, melhorando a legibilidade */
+}
+
+/* Estiliza a data dentro da classe 'card_texto' */
+.card_texto .card_data {
+    color: #777777; /* Define a cor do texto como um cinza */
+    padding-top: 1rem; /* Adiciona um padding superior de 1 rem */
+    padding-bottom: 3rem; /* Adiciona um padding inferior de 3 rem */
+}
+
+/* Estiliza o botão de 'Leia Mais' com classe 'btn_leiamais' */
+.btn_leiamais {
+    display: inline-block; /* Define o botão como um bloco em linha */
+    position: absolute; /* Define a posição absoluta para o botão dentro do contêiner do cartão */
+    padding: 8px 16px; /* Adiciona um padding de 8 pixels verticalmente e 16 pixels horizontalmente */
+    background-color: #306998; /* Define a cor de fundo do botão */
+    text-decoration: none; /* Remove a decoração padrão do texto (sublinhado) */
+    border-radius: 4px; /* Adiciona cantos arredondados com um raio de 4 pixels */
+    color: #fff; /* Define a cor do texto como branco */
+    font-weight: 600; /* Define a espessura da fonte como 600 (semi-negrito) */
+    bottom: 10px; /* Posiciona o botão a 10 pixels do fundo do contêiner do cartão */
+    left: 10px; /* Posiciona o botão a 10 pixels da esquerda do contêiner do cartão */
+    transition: all 0.5s ease; /* Adiciona uma transição suave de 0,5 segundos para todas as mudanças de estilo */
+}
+
+/* Estiliza o botão de 'Leia Mais' quando o cursor está sobre ele */
+.card_texto .btn_leiamais:hover {
+    background-color: #083d77; /* Muda a cor de fundo do botão quando o cursor está sobre ele */
+    transition: all 0.5s ease; /* Adiciona uma transição suave de 0,5 segundos para a mudança de cor */
+}
