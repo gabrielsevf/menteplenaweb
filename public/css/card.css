@@ -1,0 +1,75 @@
+/* Estiliza o container dos cartões com classe 'card' */
+.card {
+    width: 500px;
+    height: auto;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Estiliza o container da imagem dentro do cartão com classe 'card_img' */
+.card_img {
+    position: relative;
+}
+
+/* Estiliza a imagem dentro da classe 'card_img' */
+.card_img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Estiliza o container de texto dentro do cartão com classe 'card_texto' */
+.card_texto {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Estiliza o título dentro da classe 'card_texto' */
+.card_texto h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+/* Estiliza os parágrafos dentro da classe 'card_texto' */
+.card_texto p {
+    color: #777777;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+/* Estiliza a data dentro da classe 'card_texto' */
+.card_texto .card_data {
+    color: #777777;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+/* Estiliza o botão de 'Leia Mais' com classe 'btn_leiamais' */
+.btn_leiamais {
+    display: inline-block;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #306998;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    bottom: 10px;
+    left: 10px;
+    transition: all 0.5s ease;
+}
+
+/* Estiliza o botão de 'Leia Mais' quando o cursor está sobre ele */
+.card_texto .btn_leiamais:hover {
+    background-color: #083d77;
+    transition: all 0.5s ease;
+}

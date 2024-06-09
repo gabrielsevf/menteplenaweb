@@ -1,0 +1,100 @@
+/* Estiliza a seção 01 com flexbox, largura total e altura de 100% da altura da tela */
+#Section_01{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Define a posição e estilo do container de início das dicas */
+.dicas_inicio{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    margin-top: 5%;
+}
+
+/* Define a imagem de fundo e suas propriedades no container de início das dicas */
+.dicas_inicio{
+    background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=3840,fit=crop/A0xr016aR9TWNKL8/little-boy-with-hand-full-paint-covering-his-face-YZ9XGZR7g4F9757G.jpg');
+    background-size: cover;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/* Define o estilo do título das dicas, com fundo escuro e centralização de conteúdo */
+.dicas_titulo{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: #0000007e;
+    align-items: center;
+}
+
+/* Estiliza o título principal das dicas */
+.dicas_titulo h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto 0 auto;
+}
+
+/* Estiliza a seção 02 com flexbox, largura total, altura de 20% da altura da tela, alinhamento central e margem inferior */
+#Section_02{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    margin: 0 0 20% 0;
+}
+
+/* Define o estilo do container da dica 02, com alinhamento central, padding e fundo branco */
+.dica_02{
+    display: flex;
+    align-items: center;
+    padding: 5rem 10rem 5rem 10rem;
+    background-color: #fff;
+}
+
+/* Centraliza a imagem da dica */
+.dica_img {
+    align-items: center;
+}
+
+/* Estiliza a imagem da dica com tamanho máximo e bordas arredondadas */
+.dica_img img{
+    max-width: 550px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Define a margem e alinhamento do texto da dica */
+.dica_texto{
+    margin: 0 10% 0 10%;
+    align-items: center;
+}
+
+/* Estiliza o título do texto da dica */
+.dica_texto h1{
+    color: #000;
+    font-size: 48px;
+    padding-bottom: 1rem;
+}
+
+/* Estiliza o parágrafo do texto da dica */
+.dica_texto p{
+    color: #000;
+    font-size: 24px;
+}
+
+/* Estiliza a seção 03 com flexbox, largura total, altura automática, centralização de conteúdo, padding e fundo colorido */
+#Section_03{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #306998;
+}

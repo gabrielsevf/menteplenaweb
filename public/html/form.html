@@ -8,7 +8,9 @@
     <title>Login - Apoio e educação sobre o Autismo | MentePlena</title>
 
     <!-- Icone do website -->
-    <link rel="shortcut icon" href="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=48,h=48,fit=crop,f=png/A0xr016aR9TWNKL8/img-20240306-wa0010-removebg-preview-1-YBgyaR0EE4iBMklk.png" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=48,h=48,fit=crop,f=png/A0xr016aR9TWNKL8/img-20240306-wa0010-removebg-preview-1-YBgyaR0EE4iBMklk.png"
+        type="image/x-icon">
 
     <!-- Links para arquivos de estilo -->
     <link rel="stylesheet" href="../css/global.css">
@@ -40,7 +42,7 @@
                 <a href="./relatos.html">Relatos</a>
                 <a href="./recursos.html">Recursos</a>
                 <a href="./contato.html">Contato</a>
-                <a href="./ia.html"></a> <!-- Link vazio -->
+                <a href="./ia.html">Ia</a> <!-- Link vazio -->
             </div>
 
             <!-- Ícone de menu e conteúdo do dropdown -->
@@ -73,13 +75,13 @@
             <!-- Formulário de login -->
             <form id="Entrar">
                 <!-- Campo para o nome de usuário -->
-                <input type="text" placeholder="Usuário" required>
+                <input type="text" placeholder="E-Mail" required>
                 <!-- Ícone de usuário -->
-                <i class="fa-solid fa-user iUser"></i>
+                <i class="fa-solid fa-envelope iEmail-login"></i>
                 <!-- Campo para a senha -->
                 <input type="password" placeholder="Senha" required>
                 <!-- Ícone de cadeado indicando a senha -->
-                <i class="fas fa-lock iPassword"></i>
+                <i class="fas fa-lock iPassword-login"></i>
                 <!-- Opção para lembrar a senha -->
                 <div class="divCheck">
                     <input type="checkbox">
@@ -91,18 +93,22 @@
 
             <!-- Formulário de cadastro -->
             <form id="Cadastrar">
-                <!-- Campo para o nome de usuário -->
-                <input type="text" placeholder="Usuário" required>
-                <!-- Ícone de usuário -->
-                <i class="fa-solid fa-user iUser"></i>
+                <!-- Campo para o nome do usuário-->
+                <input type="text" placeholder="Nome Completo" required>
+                <!-- Ícone de usuario -->
+                <i class="fa-solid fa-user iNome-cadastro"></i>
+                <!-- Campo para o email do usuário -->
+                <input type="text" placeholder="E-Mail" required>
+                <!-- Ícone de email -->
+                <i class="fa-solid fa-envelope iEmail-cadastro"></i>
                 <!-- Campo para a senha -->
                 <input type="password" placeholder="Senha" required>
                 <!-- Ícone de cadeado indicando a senha -->
-                <i class="fas fa-lock iPassword"></i>
+                <i class="fas fa-lock iPassword1-cadastro"></i>
                 <!-- Campo para confirmar a senha -->
                 <input type="password" placeholder="Confirme sua senha" required>
                 <!-- Ícone de cadeado indicando a confirmação de senha -->
-                <i class="fas fa-lock iPassword2"></i>
+                <i class="fas fa-lock iPassword2-cadastro"></i>
                 <!-- Opção para aceitar os termos -->
                 <div class="divCheck">
                     <input type="checkbox" required>
@@ -142,7 +148,8 @@
                     </a>
                 </span>
                 <span class="icons">
-                    <a href="https://api.whatsapp.com/send/?phone=14998148744&text&type=phone_number&app_absent=0" target="_blank">
+                    <a href="https://api.whatsapp.com/send/?phone=14998148744&text&type=phone_number&app_absent=0"
+                        target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </span>

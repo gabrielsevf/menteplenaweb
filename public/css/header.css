@@ -1,122 +1,138 @@
+/* Estiliza o cabeçalho */
 #Cabecalho {
-    width: 100%; /* Definir a largura do cabeçalho para ocupar 100% da largura da tela */
-    background-color: #083d77; /* Cor de fundo do cabeçalho */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra abaixo do cabeçalho */
-    position: fixed; /* Cabeçalho fixo no topo da página */
-    top: 0; /* Posicionar o cabeçalho no topo da página */
-    z-index: 1000; /* Garantir que o cabeçalho fique acima de outros elementos */
-    height: 100px; /* Altura do cabeçalho */
+    width: 100%;
+    background-color: #083d77;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
 }
 
+/* Estiliza a barra de navegação */
 .navbar {
-    display: flex; /* Usar flexbox para layout da barra de navegação */
-    justify-content: space-between; /* Espaçar os itens da barra de navegação */
-    align-items: center; /* Alinhar os itens da barra de navegação no centro verticalmente */
-    max-width: 1200px; /* Largura máxima da barra de navegação */
-    padding: 10px 20px; /* Espaçamento interno da barra de navegação */
-    height: 100%; /* Ocupação total da altura do cabeçalho */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 10px 20px;
+    height: 100%;
 }
 
-.logo{
-    margin: 0 30px; /* Margem ao redor do logotipo */
+/* Estiliza o logotipo */
+.logo {
+    margin: 0 30px;
 }
 
 .logo img {
-    max-height: 61px; /* Altura máxima da imagem do logotipo */
+    max-height: 61px;
 }
 
-.nav-itens{
-    margin: auto; /* Centralizar os itens de navegação */
+/* Estiliza os itens de navegação */
+.nav-itens {
+    margin: auto;
 }
 
 .nav-itens a {
-    color: #FFF; /* Cor dos links de navegação */
-    font-weight: 500; /* Peso da fonte dos links de navegação */
-    text-decoration: none; /* Remover sublinhado dos links */
-    margin: 0 15px; /* Margem ao redor dos links */
-    font-size: 16px; /* Tamanho da fonte dos links */
-    position: relative; /* Posicionamento relativo para efeito de underline */
-    transition: color 0.3s; /* Transição suave para a cor ao passar o mouse */
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s;
 }
 
+/* Estiliza o underline dos links de navegação */
 .nav-itens a::after {
-    content: ''; /* Conteúdo vazio para criar o underline */
-    position: absolute; /* Posicionamento absoluto para o underline */
-    width: 0; /* Largura inicial do underline */
-    height: 2px; /* Altura do underline */
-    bottom: -5px; /* Posição do underline abaixo do texto */
-    left: 50%; /* Centralizar o underline inicialmente */
-    background-color: #fff; /* Cor do underline */
-    transition: width 0.5s ease, left 0.6s ease; /* Transições para o efeito de underline */
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    background-color: #fff;
+    transition: width 0.5s ease, left 0.6s ease;
 }
 
+/* Estiliza o hover do underline */
 .nav-itens a:hover::after {
-    width: 100%; /* Expandir o underline ao passar o mouse */
-    left: 0; /* Centralizar o underline ao passar o mouse */
+    width: 100%;
+    left: 0;
 }
 
-.nav-itens a:hover {
-    color: #fff; /* Cor do texto ao passar o mouse */
+/* Estiliza o hover da cor do texto */
+.nav-itens a {
+    color: #fff;
 }
 
+/* Estiliza o ícone do menu */
 .options {
-    position: relative; /* Posicionamento relativo para o ícone do menu */
-    display: inline-block; /* Exibição em bloco inline */
-    right: -150px; /* Ajuste de posição à direita */
+    position: relative;
+    display: inline-block;
+    right: -150px;
 }
 
+/* Estiliza as barras do ícone do menu */
 .menu-icon {
-    cursor: pointer; /* Cursor de ponteiro para o ícone do menu */
-    display: inline-block; /* Exibição em bloco inline */
+    cursor: pointer;
+    display: inline-block;
 }
 
-.bar1, .bar2, .bar3 {
-    width: 25px; /* Largura das barras do ícone do menu */
-    height: 3px; /* Altura das barras do ícone do menu */
-    background-color: white; /* Cor de fundo das barras */
-    margin: 4px 0; /* Margem entre as barras */
-    transition: 0.6s; /* Transição suave para as barras do ícone de menu */
+.bar1,
+.bar2,
+.bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.6s;
 }
 
+/* Estiliza as barras do ícone do menu quando o menu é ativado */
 .change .bar1 {
-    transform: rotate(-45deg) translate(-5px, 5px); /* Transformação da barra 1 ao clicar no menu */
+    transform: rotate(-45deg) translate(-5px, 5px);
 }
 
 .change .bar2 {
-    opacity: 0; /* Tornar a barra 2 invisível ao clicar no menu */
+    opacity: 0;
 }
 
 .change .bar3 {
-    transform: rotate(45deg) translate(-5px, -5px); /* Transformação da barra 3 ao clicar no menu */
+    transform: rotate(45deg) translate(-5px, -5px);
 }
 
+/* Estiliza o dropdown */
 .dropdown-content {
-    display: none; /* Ocultar o dropdown por padrão */
-    position: absolute; /* Posicionamento absoluto para o dropdown */
-    background-color: #fff; /* Cor de fundo do dropdown */
-    min-width: 160px; /* Largura mínima do dropdown */
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Sombra do dropdown */
-    z-index: 1; /* Garantir que o dropdown fique acima de outros elementos */
-    right: -10px; /* Posicionar o dropdown à direita */
-    top: 64px; /* Alinhar o dropdown abaixo do cabeçalho */
-    overflow: hidden; /* Ocultar o conteúdo que ultrapassa o dropdown */
-    max-height: 0; /* Altura máxima inicial do dropdown */
-    transition: max-height 0.6s ease-out; /* Transição suave para a altura do dropdown */
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: -10px;
+    top: 64px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.6s ease-out;
 }
 
+/* Estiliza o dropdown quando é exibido */
 .dropdown-content.show {
-    display: block; /* Mostrar o dropdown ao adicionar a classe show */
+    display: block;
 }
 
+/* Estiliza os links no dropdown */
 .dropdown-content a {
-    color: black; /* Cor dos links no dropdown */
+    color: black;
     font-weight: 500;
-    padding: 12px 16px; /* Espaçamento interno dos links no dropdown */
-    text-decoration: none; /* Remover sublinhado dos links no dropdown */
-    display: block; /* Exibir os links como blocos */
-    transition: background-color 0.3s; /* Transição suave para o fundo dos links no dropdown */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
 }
 
+/* Estiliza o hover dos links no dropdown */
 .dropdown-content a:hover {
-    background-color: #f1f1f1; /* Cor de fundo dos links ao passar o mouse no dropdown */
+    background-color: #f1f1f1;
 }

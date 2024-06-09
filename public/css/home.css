@@ -3,57 +3,38 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    /* A seção ocupará 100% da altura da viewport */
     display: flex;
-    /* Flexbox para alinhas os elementos dentro da seção */
 }
 
 /* Estilo para o contêiner .home_cont_1 */
 .home_cont_1 {
-    display: grid;
-    /* Usando Grid Layout */
-    grid-template-columns: repeat(2, 1fr);
-    /* Duas colunas de tamanhos iguais */
+    display: flex;
     align-items: center;
-    /* Centraliza verticalmente os itens dentro das células do grid */
     text-align: center;
-    /* Centraliza o texto */
+    padding: 5rem;
     background-color: #fff;
-    /* Fundo branco */
-    padding: 2rem;
-    /* Espaçamento interno */
 }
 
 /* Estilo para o título dentro de .info_text_1 */
 .info_text_1 .titulo_1 h1 {
     font-size: 48px;
-    /* Tamanho da fonte */
     margin: 0 15% 0 15%;
-    /* Margens laterais */
     text-align: left;
-    /* Alinhamento à esquerda */
     padding-bottom: 1rem;
-    /* Espaçamento abaixo do título */
 }
 
 /* Estilo para o parágrafo dentro de .info_text_1 */
 .info_text_1 .texto_1 p {
     text-align: left;
-    /* Alinhamento à esquerda */
     margin: 0 15% 0 15%;
-    /* Margens laterais */
     padding-right: 2rem;
-    /* Espaçamento à direita */
     font-size: 26px;
-    /* Tamanho da fonte */
 }
 
 /* Estilo para a imagem dentro de .info_img_1 */
 .info_img_1 img {
-    max-width: 600px;
-    /* Largura máxima da imagem */
+    max-width: 550px;
     border-radius: 20px;
-    /* Bordas arredondadas */
 }
 
 /* Estilo para a seção #Home_2 */
@@ -61,292 +42,195 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    /* A seção ocupará 100% da altura da viewport */
     display: flex;
-    /* Flexbox para alinhas os elementos dentro da seção */
 }
 
 /* Estilo para o contêiner .home_cont_2 */
 .home_cont_2 {
-    display: grid;
-    /* Usando Grid Layout */
-    grid-template-columns: repeat(2, 1fr);
-    /* Duas colunas de tamanhos iguais */
+    display: flex;
     align-items: center;
-    /* Centraliza verticalmente os itens dentro das células do grid */
     text-align: center;
-    /* Centraliza o texto */
+    padding: 5rem;
     background-color: #306998;
-    /* Fundo azul */
-    padding: 2rem;
-    /* Espaçamento interno */
 }
 
 /* Estilo para o título dentro de .info_text_2 */
 .info_text_2 .titulo_2 h1 {
     color: #fff;
-    /* Cor do texto branca */
     font-size: 48px;
-    /* Tamanho da fonte */
     margin: 0 15% 0 15%;
-    /* Margens laterais */
     text-align: left;
-    /* Alinhamento à esquerda */
     padding-bottom: 1rem;
-    /* Espaçamento abaixo do título */
 }
 
 /* Estilo para o parágrafo dentro de .info_text_2 */
 .info_text_2 .texto_2 p {
     color: #fff;
-    /* Cor do texto branca */
     text-align: left;
-    /* Alinhamento à esquerda */
     margin: 0 15% 0 15%;
-    /* Margens laterais */
     padding-right: 2rem;
-    /* Espaçamento à direita */
     font-size: 26px;
-    /* Tamanho da fonte */
 }
 
 /* Estilo para a imagem dentro de .info_img_2 */
 .info_img_2 img {
-    max-width: 600px;
-    /* Largura máxima da imagem */
+    max-width: 550px;
     border-radius: 20px;
-    /* Bordas arredondadas */
 }
 
 /* Estiliza a seção com id 'Home_3' */
 #Home_3 {
-    position: relative; /* Define a posição relativa para futuros posicionamentos */
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
-    width: 100%; /* Define a largura total da seção */
-    height: 60vh; /* Define a altura da seção como 60% da altura da visualização */
-    background-color: #fafafa; /* Define a cor de fundo da seção */
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: #fafafa;
 }
 
 /* Estiliza o container com classe 'home_cont_3' */
 .home_cont_3 {
-    display: grid; /* Usa o grid layout para alinhar itens filhos */
-    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanhos iguais */
-    align-items: center; /* Alinha os itens no centro verticalmente */
-    text-align: center; /* Alinha o texto no centro horizontalmente */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 10%;
 }
 
 /* Estiliza o título dentro da classe 'info_text_3' */
 .info_text_3 .titulo_3 h1 {
-    color: #000; /* Define a cor do texto como preto */
-    font-size: 48px; /* Define o tamanho da fonte */
-    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
-    text-align: left; /* Alinha o texto à esquerda */
-    padding-bottom: 1rem; /* Adiciona um espaçamento na parte inferior */
+    color: #000;
+    font-size: 48px;
+    margin: 0 15% 0 15%;
+    text-align: left;
+    padding-bottom: 1rem;
 }
 
 /* Estiliza o parágrafo dentro da classe 'info_text_3' */
 .info_text_3 .texto_3 p {
-    color: #000; /* Define a cor do texto como preto */
-    text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
-    padding-right: 2rem; /* Adiciona um preenchimento à direita */
-    font-size: 22px; /* Define o tamanho da fonte */
+    color: #000;
+    text-align: left;
+    margin: 0 15% 0 15%;
+    padding-right: 2rem;
+    font-size: 22px;
 }
 
 /* Estiliza a imagem dentro da classe 'info_img_3' */
 .info_img_3 img {
-    max-width: 600px; /* Define a largura máxima da imagem */
-    border-radius: 50px; /* Define os cantos arredondados da imagem */
+    max-width: 600px;
+    border-radius: 180px;
 }
 
 /* Estiliza a seção com id 'Home_4' */
 #Home_4 {
-    position: relative; /* Define a posição relativa para futuros posicionamentos */
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
-    width: 100%; /* Define a largura total da seção */
-    height: 60vh; /* Define a altura da seção como 60% da altura da visualização */
-    background-color: #fafafa; /* Define a cor de fundo da seção */
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: #fafafa;
 }
 
 /* Estiliza o container com classe 'home_cont_4' */
 .home_cont_4 {
-    display: grid; /* Usa o grid layout para alinhar itens filhos */
-    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanhos iguais */
-    align-items: center; /* Alinha os itens no centro verticalmente */
-    text-align: center; /* Alinha o texto no centro horizontalmente */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
 }
 
 /* Estiliza o título dentro da classe 'info_text_4' */
 .info_text_4 .titulo_4 h1 {
-    color: #000; /* Define a cor do texto como preto */
-    font-size: 48px; /* Define o tamanho da fonte */
-    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
-    text-align: left; /* Alinha o texto à esquerda */
-    padding-bottom: 1rem; /* Adiciona um espaçamento na parte inferior */
+    color: #000;
+    font-size: 48px;
+    margin: 0 15% 0 15%;
+    text-align: left;
+    padding-bottom: 1rem;
 }
 
 /* Estiliza o parágrafo dentro da classe 'info_text_4' */
 .info_text_4 .texto_4 p {
-    color: #000; /* Define a cor do texto como preto */
-    text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
-    padding-right: 2rem; /* Adiciona um preenchimento à direita */
-    font-size: 22px; /* Define o tamanho da fonte */
+    color: #000;
+    text-align: left;
+    margin: 0 15% 0 15%;
+    padding-right: 2rem;
+    font-size: 22px;
 }
 
 /* Estiliza a imagem dentro da classe 'info_img_4' */
 .info_img_4 img {
-    max-width: 600px; /* Define a largura máxima da imagem */
-    border-radius: 180px; /* Define os cantos arredondados da imagem */
+    max-width: 600px;
+    border-radius: 180px;
 }
 
 /* Estiliza a seção com id 'Home_5' */
 #Home_5 {
-    position: relative; /* Define a posição relativa para futuros posicionamentos */
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
-    width: 100%; /* Define a largura total da seção */
-    height: 60vh; /* Define a altura da seção como 60% da altura da visualização */
-    background-color: #fafafa; /* Define a cor de fundo da seção */
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: #fafafa;
 }
 
 /* Estiliza o container com classe 'home_cont_5' */
 .home_cont_5 {
-    display: grid; /* Usa o grid layout para alinhar itens filhos */
-    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanhos iguais */
-    align-items: center; /* Alinha os itens no centro verticalmente */
-    text-align: center; /* Alinha o texto no centro horizontalmente */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 10%;
 }
 
 /* Estiliza o título dentro da classe 'info_text_5' */
 .info_text_5 .titulo_5 h1 {
-    color: #000; /* Define a cor do texto como preto */
-    font-size: 48px; /* Define o tamanho da fonte */
-    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
-    text-align: left; /* Alinha o texto à esquerda */
-    padding-bottom: 1rem; /* Adiciona um espaçamento na parte inferior */
+    color: #000;
+    font-size: 48px;
+    margin: 0 15% 0 15%;
+    text-align: left;
+    padding-bottom: 1rem;
 }
 
 /* Estiliza o parágrafo dentro da classe 'info_text_5' */
 .info_text_5 .texto_5 p {
-    color: #000; /* Define a cor do texto como preto */
-    text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 15% 0 15%; /* Define a margem esquerda e direita como 15% */
-    padding-right: 2rem; /* Adiciona um preenchimento à direita */
-    font-size: 22px; /* Define o tamanho da fonte */
+    color: #000;
+    text-align: left;
+    margin: 0 15% 0 15%;
+    padding-right: 2rem;
+    font-size: 22px;
 }
 
 /* Estiliza a imagem dentro da classe 'info_img_5' */
 .info_img_5 img {
-    max-width: 600px; /* Define a largura máxima da imagem */
-    border-radius: 180px; /* Define os cantos arredondados da imagem */
+    max-width: 600px;
+    border-radius: 180px;
 }
 
 /* Estiliza a seção com id 'Home_6' */
 #Home_6 {
-    position: relative; /* Define a posição relativa para futuros posicionamentos */
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
-    width: 100%; /* Define a largura total da seção */
-    height: 30vh; /* Define a altura da seção como 30% da altura da visualização */
-    background-color: #fafafa; /* Define a cor de fundo da seção */
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background-color: #fafafa;
 }
 
 /* Estiliza o container com classe 'home_cont_6' */
 .home_cont_6 {
-    width: 100%; /* Define a largura total do container */
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
+    width: 100%;
+    display: flex;
 }
 
 /* Estiliza a classe 'info_text_6' */
 .info_text_6 {
-    margin: auto; /* Centraliza o conteúdo dentro do container */
+    margin: auto;
 }
 
 /* Estiliza o título dentro da classe 'titulo_6' */
 .titulo_6 {
-    color: #000; /* Define a cor do texto como preto */
-    font-size: 32px; /* Define o tamanho da fonte */
+    color: #000;
+    font-size: 32px;
 }
 
 /* Estiliza a seção com id 'Home_7' */
 #Home_7 {
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    flex-wrap: wrap; /* Permite que os itens quebrem em várias linhas, se necessário */
-    margin-top: 100px; /* Adiciona uma margem superior de 100 pixels */
-}
-
-/* Estiliza o container dos cartões com classe 'card' */
-.card {
-    width: 500px; /* Define a largura dos cartões */
-    height: auto; /* A altura será ajustada automaticamente conforme o conteúdo */
-    background-color: #F0F0F0; /* Define a cor de fundo dos cartões */
-    border-radius: 8px; /* Adiciona cantos arredondados com um raio de 8 pixels */
-    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do cartão */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao redor dos cartões */
-    margin: 20px; /* Adiciona uma margem ao redor de cada cartão */
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
-    flex-direction: column; /* Organiza o conteúdo dos cartões em uma coluna */
-    position: relative; /* Define a posição relativa para permitir o uso de posicionamento absoluto nos elementos filhos */
-}
-
-/* Estiliza o container da imagem dentro do cartão com classe 'card_img' */
-.card_img {
-    position: relative; /* Define a posição relativa para a imagem do cartão */
-}
-
-/* Estiliza a imagem dentro da classe 'card_img' */
-.card_img img {
-    width: 100%; /* Define a largura da imagem para ocupar 100% do contêiner */
-    height: 300px; /* Define a altura da imagem */
-    object-fit: cover; /* Faz com que a imagem cubra completamente o contêiner, cortando se necessário */
-}
-
-/* Estiliza o container de texto dentro do cartão com classe 'card_texto' */
-.card_texto {
-    padding: 16px; /* Adiciona um padding de 16 pixels ao redor do texto */
-    flex: 1; /* Permite que a seção de texto ocupe o espaço restante no cartão */
-    display: flex; /* Usa o flexbox para alinhar itens filhos */
-    flex-direction: column; /* Organiza o conteúdo do texto em uma coluna */
-    justify-content: flex-start; /* Alinha o conteúdo do texto ao início do contêiner */
-}
-
-/* Estiliza o título dentro da classe 'card_texto' */
-.card_texto h3 {
-    font-size: 28px; /* Define o tamanho da fonte para 28 pixels */
-    margin-bottom: 8px; /* Adiciona uma margem inferior de 8 pixels */
-}
-
-/* Estiliza os parágrafos dentro da classe 'card_texto' */
-.card_texto p {
-    color: #777777; /* Define a cor do texto como um cinza */
-    font-size: 15px; /* Define o tamanho da fonte para 15 pixels */
-    line-height: 1.3; /* Define a altura da linha para 1.3 vezes o tamanho da fonte, melhorando a legibilidade */
-}
-
-/* Estiliza a data dentro da classe 'card_texto' */
-.card_texto .card_data {
-    color: #777777; /* Define a cor do texto como um cinza */
-    padding-top: 1rem; /* Adiciona um padding superior de 1 rem */
-    padding-bottom: 3rem; /* Adiciona um padding inferior de 3 rem */
-}
-
-/* Estiliza o botão de 'Leia Mais' com classe 'btn_leiamais' */
-.btn_leiamais {
-    display: inline-block; /* Define o botão como um bloco em linha */
-    position: absolute; /* Define a posição absoluta para o botão dentro do contêiner do cartão */
-    padding: 8px 16px; /* Adiciona um padding de 8 pixels verticalmente e 16 pixels horizontalmente */
-    background-color: #306998; /* Define a cor de fundo do botão */
-    text-decoration: none; /* Remove a decoração padrão do texto (sublinhado) */
-    border-radius: 4px; /* Adiciona cantos arredondados com um raio de 4 pixels */
-    color: #fff; /* Define a cor do texto como branco */
-    font-weight: 600; /* Define a espessura da fonte como 600 (semi-negrito) */
-    bottom: 10px; /* Posiciona o botão a 10 pixels do fundo do contêiner do cartão */
-    left: 10px; /* Posiciona o botão a 10 pixels da esquerda do contêiner do cartão */
-    transition: all 0.5s ease; /* Adiciona uma transição suave de 0,5 segundos para todas as mudanças de estilo */
-}
-
-/* Estiliza o botão de 'Leia Mais' quando o cursor está sobre ele */
-.card_texto .btn_leiamais:hover {
-    background-color: #083d77; /* Muda a cor de fundo do botão quando o cursor está sobre ele */
-    transition: all 0.5s ease; /* Adiciona uma transição suave de 0,5 segundos para a mudança de cor */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }

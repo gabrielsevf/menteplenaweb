@@ -1,0 +1,75 @@
+/* Estiliza a seção 01 com flexbox, largura total e altura de 75% da altura da tela */
+#Section_01{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+}
+
+/* Define a posição e estilo do container de início dos recursos */
+.recursos_inicio{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    margin-top: 5%;
+}
+
+/* Define a imagem de fundo e suas propriedades no container de início dos recursos */
+.recursos_inicio{
+    background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/A0xr016aR9TWNKL8/terapia-infantil-como-funciona-qual-importancia-1024x770-AzGDblnNXytL2ZpE.jpg');
+    background-size: cover;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/* Adiciona uma camada de fundo escura semi-transparente */
+.recursos_background{
+    background-color: #0000008e;
+}
+
+/* Estiliza o título principal no container de início dos recursos */
+.recursos_titulo_inicio h1{
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 3rem;
+}
+
+/* Estiliza o parágrafo no container de início dos recursos */
+.recursos_texto_inicio p{
+    color: #fff;
+    font-size: 28px;
+    margin: 0 15% 0 15%;
+    text-align: center;
+}
+
+/* Estiliza a seção 02 com flexbox, largura total e altura de 50% da altura da tela */
+#Section_02{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+/* Centraliza o título no container de recursos */
+.recursos_titulo{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estiliza o título principal no container de recursos */
+.recursos_titulo h1{
+    font-size: 48px;
+    font-weight: 500;
+    padding: 3rem;
+}
+
+/* Estiliza o subtítulo no container de recursos */
+.recursos_titulo h2{
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 3rem;
+}

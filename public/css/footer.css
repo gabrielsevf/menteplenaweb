@@ -1,76 +1,74 @@
 /* Estilo para a seção de contato */
 #Contato {
     position: relative;
-    display: grid; /* Usando Grid Layout */
-    justify-content: space-around; /* Espaça os itens uniformemente */
-    background-color: #083d77; /* Cor de fundo azul escuro */
-    padding: 3rem; /* Espaçamento interno */
-    margin-top: 1rem; /* Margem superior */
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto)); /* Colunas responsivas */
+    display: grid;
+    justify-content: space-around;
+    background-color: #083d77;
+    padding: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 
 /* Estilo para o título dentro de .titulo */
 .titulo h1 {
-    color: #fff; /* Cor do texto branca */
-    width: 300px; /* Largura do título */
-    text-align: left; /* Alinhamento à esquerda */
-    padding-bottom: 1rem; /* Espaçamento abaixo do título */
+    color: #fff;
+    width: 300px;
+    text-align: left;
+    padding-bottom: 1rem;
 }
 
 /* Estilo para o botão de contato dentro de .contato_btn */
 .contato_btn button {
-    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
-    text-align: center; /* Centraliza o texto */
-    border: none; /* Remove borda */
-    background: none; /* Remove fundo padrão */
-    width: 120px; /* Largura do botão */
-    height: 50px; /* Altura do botão */
-    border-radius: 40px; /* Bordas arredondadas */
-    background-color: #fff; /* Fundo branco */
-    font-size: 18px; /* Tamanho da fonte */
-    font-weight: 700; /* Peso da fonte */
-    transition: all .5s ease; /* Transição suave */
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .5s ease;
 }
 
 /* Efeito hover para o botão de contato */
 .contato_btn button:hover {
-    background-color: #c9c9c9; /* Cor de fundo ao passar o mouse */
-    transition: all .5s ease; /* Transição suave */
+    background-color: #9c9c9c;
 }
 
 /* Estilo para o parágrafo de email dentro de .email */
 .email p {
-    color: #fff; /* Cor do texto branca */
-    width: 300px; /* Largura do parágrafo */
-    font-size: 24px; /* Tamanho da fonte */
-    padding-bottom: 1rem; /* Espaçamento abaixo do parágrafo */
-    text-align: center; /* Alinhamento central */
+    color: #fff;
+    width: 300px;
+    font-size: 24px;
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
 /* Estilo para a seção de redes sociais */
 .rede_social {
-    display: flex; /* Usando Flexbox */
-    align-items: center; /* Centraliza verticalmente os itens */
+    display: flex;
+    align-items: center;
 }
 
 /* Estilo para os ícones de redes sociais */
 .icons {
-    margin: 0 15px; /* Margens laterais */
+    margin: 0 15px;
 }
 
-.icons i{
+.icons i {
     position: relative;
 }
 
 /* Estilo para os links dos ícones */
 .icons a {
-    color: #fff; /* Cor dos ícones branca */
-    font-size: 36px; /* Tamanho dos ícones */
-    transition: all .5s ease; /* Transição suave */
+    color: #fff;
+    font-size: 36px;
+    transition: all .5s ease;
 }
 
 /* Efeito hover para os links dos ícones */
 .icons a:hover {
-    color: #000; /* Cor dos ícones ao passar o mouse */
-    transition: all .5s ease; /* Transição suave */
+    color: #000;
+    transition: all .5s ease;
 }

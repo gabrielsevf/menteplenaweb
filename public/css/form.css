@@ -1,145 +1,158 @@
 /* Define o posicionamento e o tamanho da área do formulário */
 #Form {
-    position: relative; /* Define a posição como relativa em relação ao contêiner pai */
-    width: 100%; /* Define a largura como 100% */
-    height: 100vh; /* Define a altura como 100% da altura da viewport */
-    display: flex; /* Usa o modelo de layout flexível */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Estiliza o contêiner do formulário */
 .div_form {
-    background-color: whitesmoke; /* Define a cor de fundo como branco esfumaçado */
-    padding: 6px; /* Adiciona preenchimento interno */
-    width: 350px; /* Define a largura do contêiner */
-    height: 450px; /* Define a altura do contêiner */
-    display: flex; /* Usa o modelo de layout flexível */
-    flex-direction: column; /* Organiza os itens em coluna */
-    align-items: center; /* Alinha os itens horizontalmente ao centro */
-    position: relative; /* Define a posição como relativa */
-    overflow: hidden; /* Oculta o conteúdo que transborda do contêiner */
-    border-radius: 10px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 0 20px 0 darkgray; /* Adiciona sombra */
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgray;
 }
 
 /* Estiliza os formulários de login e cadastro */
 form {
-    position: absolute; /* Define a posição como absoluta */
-    margin-top: 80px; /* Adiciona margem superior */
-    transition: .5s; /* Adiciona uma transição suave */
-    width: 300px; /* Define a largura do formulário */
-    height: 400px; /* Define a altura do formulário */
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 600px;
 }
 
 /* Estiliza os botões de alternância entre entrar e cadastrar */
 .buttons_form {
-    margin-top: 40px; /* Adiciona margem superior */
-    position: relative; /* Define a posição como relativa */
-    border-radius: 30px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 0 7px #083d77; /* Adiciona sombra */
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px #083d77;
 }
 
 /* Estiliza os botões de entrada e cadastro */
 .buttons_form button {
-    cursor: pointer; /* Define o cursor como um ponteiro */
-    background: transparent; /* Define o fundo como transparente */
-    border: none; /* Remove a borda */
-    position: relative; /* Define a posição como relativa */
-    padding: 10px 29px; /* Adiciona preenchimento */
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
 }
 
 /* Estiliza o botão de cor (não especificado no HTML) */
 .btn_cor {
-    position: absolute; /* Define a posição como absoluta */
-    width: 108px; /* Define a largura */
-    height: 100%; /* Define a altura como 100% */
-    background: linear-gradient(to right, #083d77, #306998); /* Adiciona um gradiente de cor de fundo */
-    border-radius: 30px; /* Adiciona bordas arredondadas */
-    transition: .3s; /* Adiciona uma transição suave */
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right, #083d77, #306998);
+    border-radius: 30px;
+    transition: .3s;
 }
 
 /* Estiliza o botão de entrar */
 #btn_entrar {
-    color: #fff; /* Define a cor do texto como branco */
-    font-weight: 600; /* Define o peso da fonte como negrito */
-    transition: .8s; /* Adiciona uma transição suave */
+    color: #fff;
+    font-weight: 600;
+    transition: .8s;
 }
 
 /* Estiliza o botão de cadastrar */
 #btn_cadastrar {
-    color: #000; /* Define a cor do texto como preto */
-    font-weight: 600; /* Define o peso da fonte como negrito */
-    transition: .8s; /* Adiciona uma transição suave */
+    color: #000;
+    font-weight: 600;
+    transition: .8s;
 }
 
 /* Estiliza os campos de entrada de texto e senha */
 input[type="text"],
 input[type="password"] {
-    border: none; /* Remove a borda */
-    margin-top: 40px; /* Adiciona margem superior */
-    border-radius: 60px; /* Adiciona bordas arredondadas */
-    padding: 8px 0 8px 35px; /* Adiciona preenchimento */
-    outline: none; /* Remove o contorno ao focar */
-    width: 100%; /* Define a largura como 100% */
+    position: relative;
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
 }
 
 /* Estiliza os botões de envio do formulário */
 button[type="submit"] {
-    background: #083d77; /* Define a cor de fundo */
-    color: white; /* Define a cor do texto como branco */
-    border-radius: 30px; /* Adiciona bordas arredondadas */
-    width: 100%; /* Define a largura como 100% */
-    border: none; /* Remove a borda */
-    outline: none; /* Remove o contorno ao focar */
-    padding: 8px 0 8px 15px; /* Adiciona preenchimento */
-    font-size: 15px; /* Define o tamanho da fonte */
-    font-weight: 500; /* Define o peso da fonte */
-    margin-top: 40px; /* Adiciona margem superior */
-    cursor: pointer; /* Define o cursor como um ponteiro */
-    transition: .5s; /* Adiciona uma transição suave */
+    background: #083d77;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s;
 }
 
 /* Define a aparência do botão quando o cursor está sobre ele */
 button[type="submit"]:hover {
-    background: #062d57; /* Altera a cor de fundo para um tom mais escuro */
+    background: #062d57;
 }
 
 /* Estiliza a div de opções de check (Lembrar senha e Termos) */
 .divCheck {
-    margin: 10px 0 0 5px; /* Adiciona margem */
-    width: 80%; /* Define a largura como 80% */
-    font-size: 13px; /* Define o tamanho da fonte */
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
 }
 
 /* Posiciona o formulário de login */
 #Entrar {
-    left: 25px; /* Define a distância da esquerda */
+    left: 25px;
 }
 
 /* Posiciona o formulário de cadastro */
 #Cadastrar {
-    left: 450px; /* Define a distância da esquerda */
+    left: 450px;
 }
 
 /* Estiliza os ícones */
 i {
-    position: absolute; /* Define a posição como absoluta */
-    left: 0; /* Define a distância da esquerda */
-    padding: 10px 10px; /* Adiciona preenchimento */
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
 }
 
-/* Estiliza o ícone de usuário */
-.iUser {
-    top: 38px; /* Define a distância do topo */
+/* Entrar */
+
+.iEmail-login {
+    top: 39px;
 }
 
-/* Estiliza o ícone de senha */
-.iPassword {
-    top: 110px; /* Define a distância do topo */
+.iPassword-login {
+    top: 110px;
 }
 
-/* Estiliza o ícone de confirmação de senha */
-.iPassword2 {
-    top: 185px; /* Define a distância do topo */
+/* Cadastrar */
+.iNome-cadastro{
+    top: 38px;
+}
+
+.iEmail-cadastro{
+    top: 112px;
+}
+
+.iPassword1-cadastro {
+    top: 184px;
+}
+
+.iPassword2-cadastro {
+    top: 257px;
 }
